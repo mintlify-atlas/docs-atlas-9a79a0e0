@@ -1,0 +1,157 @@
+{
+  "projectType": "saas",
+  "projectName": "OpenPanel",
+  "projectDescription": "Open-source web and product analytics platform, an alternative to Mixpanel with optional self-hosting",
+  "theme": "palm",
+  "primaryColor": "#848484",
+  "lightColor": "#101010",
+  "darkColor": "#c1c1c1",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Tracking",
+            "pages": [
+              "tracking/overview",
+              "tracking/sdks",
+              "tracking/events",
+              "tracking/user-identification",
+              "tracking/session-replay",
+              "tracking/revenue-tracking",
+              "tracking/consent-management"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "sdks/javascript",
+              "sdks/web",
+              "sdks/react",
+              "sdks/nextjs",
+              "sdks/vue",
+              "sdks/astro",
+              "sdks/nuxt",
+              "sdks/remix",
+              "sdks/react-native",
+              "sdks/swift",
+              "sdks/kotlin",
+              "sdks/express",
+              "sdks/python",
+              "sdks/ruby",
+              "sdks/rust"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/dashboards",
+              "features/funnels",
+              "features/cohorts",
+              "features/user-profiles",
+              "features/session-history",
+              "features/ab-testing",
+              "features/notifications",
+              "features/real-time-analytics"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/installation",
+              "self-hosting/docker",
+              "self-hosting/configuration",
+              "self-hosting/monitoring"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/webhooks"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "migration/from-mixpanel",
+              "migration/from-google-analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/introduction",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Event Tracking",
+            "pages": [
+              "api/track-event",
+              "api/identify-user",
+              "api/track-conversion"
+            ]
+          },
+          {
+            "group": "Insights",
+            "pages": [
+              "api/insights/overview",
+              "api/insights/query",
+              "api/insights/export"
+            ]
+          },
+          {
+            "group": "Management",
+            "pages": [
+              "api/management/projects",
+              "api/management/clients",
+              "api/management/references"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Advanced analytics with funnels, cohorts, and user profiles",
+    "Session replay with privacy controls",
+    "Real-time dashboards and interactive charts",
+    "Built-in A/B testing with detailed breakdowns",
+    "Event and funnel-based notifications",
+    "Cookieless tracking and GDPR compliance",
+    "Self-hosted deployment option",
+    "Comprehensive SDKs for web, mobile, and server-side",
+    "Custom dashboards and data visualization",
+    "Multi-platform support (Web, iOS, Android, React Native)"
+  ],
+  "publicApiSurface": [
+    "POST /track - Track events",
+    "POST /identify - Identify users",
+    "GET /insights - Query analytics data",
+    "POST /export - Export data",
+    "GET /api/projects - Manage projects",
+    "GET /api/clients - Manage clients",
+    "@openpanel/sdk - JavaScript SDK",
+    "@openpanel/web - Web SDK",
+    "@openpanel/nextjs - Next.js SDK",
+    "@openpanel/react-native - React Native SDK",
+    "OpenPanel iOS SDK - Swift",
+    "OpenPanel Android SDK - Kotlin"
+  ]
+}
